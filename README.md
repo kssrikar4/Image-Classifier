@@ -60,6 +60,9 @@ pip install tensorflow[and-cuda]
 | EfficientNetB0   | 4.20 M |         77.6% |      90% |     0.90 |
 | EfficientNetB1   | 6.73 M |         72.4% |      77% |     0.77 |
 
+## Short prediction of EfficientNetB0 Model
+![Short prediction preview](https://github.com/kssrikar4/Image-Classifier/blob/main/plots/stanford_dogs_predictions.gif)
+
 ## Training & Evaluation Plots
 
 ### Validation Accuracy Curves & Loss Curves
