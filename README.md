@@ -51,6 +51,9 @@ sudo apt install -y libcudnn9-cuda-12 libcudnn9-dev-cuda-12
 pip install tensorflow[and-cuda]
 ```
 
+## Models
+The trained models discussed in these notebooks are available for download and use on the Hugging Face Hub: [kssrikar4/DogBreed-Classification](https://huggingface.co/kssrikar4/DogBreed-Classification)
+
 ## Summary of Results
 
 | Model            | Params | Val-Acc @10ep | Test‐Acc | Macro F1 |
@@ -60,14 +63,14 @@ pip install tensorflow[and-cuda]
 | EfficientNetB0   | 4.20 M |         77.6% |      90% |     0.90 |
 | EfficientNetB1   | 6.73 M |         72.4% |      77% |     0.77 |
 
-## Short prediction of EfficientNetB0 Model
+## Short prediction preview of EfficientNetB0 Model
 ![Short prediction preview](https://github.com/kssrikar4/Image-Classifier/blob/main/plots/stanford_dogs_predictions.gif)
 
 ## Training & Evaluation Plots
 
 ### Validation Accuracy Curves & Loss Curves
 
-### MobileNetV3Small Plots
+### MobileNetV3 Plots
 ![MobileNetV3Small Val Accuracy](plots/MobileNetV3.png)
 
 ### MobileNetV2 Plots
@@ -78,3 +81,5 @@ pip install tensorflow[and-cuda]
 
 ### EfficientNetB1 Plots
 ![EfficientNetB1 Val Accuracy](plots/EfficientNetB1.png)
+
+Explore the notebooks to understand the workflow and utilize the trained models available on our Hugging Face repository for your own applications.
