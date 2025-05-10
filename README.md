@@ -82,4 +82,4 @@ The trained models discussed in these notebooks are available for download and u
 ### EfficientNetB1 Plots
 ![EfficientNetB1 Val Accuracy](plots/EfficientNetB1.png)
 
-Explore the notebooks to understand the workflow and utilize the trained models available on our Hugging Face repository for your own applications.
+Explore the notebooks to understand the workflow and utilize the trained models available on my Hugging Face repository for your own applications.
